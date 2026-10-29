@@ -15,7 +15,7 @@ export function header(): string {
   const cats = Object.entries(CATEGORIAS).map(([k, v]) => `<a href="#/produtos?categoria=${k}">${v}</a>`).join('');
   return `<header class="top">
     <div class="top-in">
-      <a class="logo" href="#/"><span class="cube">⚡</span><span>SETUP<small>MINIMAL</small></span></a>
+      <a class="logo" href="#/"><span class="cube">⚡</span><span>TECH<small>MINIMAL</small></span></a>
       <form class="busca" data-form="busca"><input name="q" placeholder="Buscar suportes, mousepads, luminárias…" aria-label="Buscar"><button aria-label="Buscar">${IC_BUSCA}</button></form>
       <div class="acoes">
         ${u ? `<button class="ic" data-acao="sair" title="Sair">${IC_USER}<span>${esc(u.nome.split(' ')[0])} · sair</span></button>` : `<a class="ic" href="#/login">${IC_USER}<span>Entrar</span></a>`}
@@ -27,7 +27,7 @@ export function header(): string {
 }
 
 export const footer = () =>
-  `<footer class="foot"><span>⚡ SetupMinimal</span><span>Protótipo · dados salvos no seu navegador</span></footer>`;
+  `<footer class="foot"><span>⚡ Tech Minimal </span><span>Protótipo · dados salvos</span></footer>`;
 
 export function card(p: Produto): string {
   const n = 4 + (Number(p.id.replace(/\D/g, '')) % 2); // avaliação provisória (placeholder)
