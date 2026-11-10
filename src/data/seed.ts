@@ -46,13 +46,4 @@ export const PRODUTOS_INICIAIS: Produto[] = [
 
 /*
 CATEGORIAS ATUAIS DO SITE -> models.ts (mexer ou alterar depois -- vinicius)
-export type Categoria = 'suporte' | 'mousepad' | 'cabos' | 'luminaria';
-
-export const CATEGORIAS: Record<Categoria, string> = {
-  suporte: 'Suportes de Alumínio',
-  mousepad: 'Mousepads Estendidos',
-  cabos: 'Organizadores de Cabos',
-  luminaria: 'Luminárias LED RGB',
-};
-
 */
