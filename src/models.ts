@@ -1,12 +1,15 @@
 // Contratos de dados. No futuro viram DTOs/entities do NestJS e tipos compartilhados com o React Native.
-export type Categoria = 'suporte' | 'mousepad' | 'cabos' | 'luminaria';
+export type Categoria = 'suporte' | 'mousepad' | 'cabos' | 'luminaria' | 'teclado';
 
 export const CATEGORIAS: Record<Categoria, string> = {
   suporte: 'Suportes de Alumínio',
   mousepad: 'Mousepads Estendidos',
   cabos: 'Organizadores de Cabos',
   luminaria: 'Luminárias LED RGB',
+  teclado: 'Teclados',
 };
+
+export const FORA_DO_MENU: Categoria[] = ['teclado'];
 
 export interface Usuario { nome: string; email: string; senha: string; }
 

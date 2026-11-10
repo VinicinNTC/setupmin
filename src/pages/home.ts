@@ -8,8 +8,8 @@ export function home(): string {
   return `
   <section class="banner">
     <div><h1>ACESSÓRIOS PARA O SEU SETUP</h1>
-      <p>Suportes de alumínio, mousepads estendidos, organizadores de cabos e luminárias LED RGB.</p>
-      <div class="row"><a class="btn blue" href="#/produtos">Ver produtos</a><a class="btn line" href="#/produtos?categoria=luminaria">Luminárias RGB</a></div></div>
+      <p>Suportes de alumínio, mousepads estendidos, organizadores de cabos, luminárias e etc.</p>
+      <div class="row"><a class="btn blue" href="#/produtos">Ver produtos</a></div></div>
     <div class="banner-art">${arte('luminaria')}</div>
   </section>
   <div class="shop">${sidebar()}<div>
