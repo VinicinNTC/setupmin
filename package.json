@@ -4,12 +4,23 @@
   "description": "SetupMinimal - e-commerce de acessórios para setup (base web em TypeScript)",
   "private": true,
   "scripts": {
+    "dev": "vite --config react/vite.config.ts",
     "dev:web": "vite",
+    "build": "tsc --noEmit -p react/tsconfig.json && vite build --config react/vite.config.ts",
     "build:web": "tsc --noEmit && vite build",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "typecheck:react": "tsc --noEmit -p react/tsconfig.json"
   },
   "devDependencies": {
     "typescript": "^5.4.0",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
   }
 }
