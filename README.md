@@ -127,20 +127,12 @@ Principais dados armazenados:
 
 **Observação:** os dados ficam armazenados localmente no navegador e não são sincronizados entre dispositivos.
 
-## 🔄 Migração para React
-
-O projeto também possui uma segunda implementação desenvolvida com React e TypeScript.
-
-O objetivo da migração foi modernizar a arquitetura da aplicação, utilizando componentes reutilizáveis, organização por páginas e navegação com React Router, preservando a lógica de negócio e a compatibilidade com os dados existentes no LocalStorage.
-
-As duas implementações são mantidas separadamente para permitir comparação, desenvolvimento e evolução independente.
 
 ## 🎯 Objetivo do projeto
+
 
 Este projeto foi desenvolvido com o objetivo de aplicar conhecimentos de desenvolvimento web, construção de interfaces, organização de código, gerenciamento de estado e persistência de dados no navegador.
 
 Também representa uma oportunidade de explorar a evolução de uma aplicação tradicional em TypeScript para uma arquitetura baseada em React.
 
----
 
-**Desenvolvido com 💙 pela equipe SetupMinimal.**
